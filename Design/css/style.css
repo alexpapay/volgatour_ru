@@ -9,6 +9,15 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+a:hover {
+    color: #1e73be;
+}
+
 
 /* Navigation section: */
 
@@ -33,6 +42,22 @@ nav.black {
 
 nav .contacts {
     float: left;
+}
+
+nav .contacts div {
+    padding: 5px;
+}
+
+nav .contacts a {
+    font-weight: bold;
+    font-size: 20;
+}
+
+nav .contacts span {
+    color: #1e73be;
+    margin-right: 10px;
+    font-size: 20px;
+    vertical-align: middle;
 }
 
 nav .logo {
@@ -153,13 +178,6 @@ nav div {
     z-index: 2;
 }
 
-.header_icon {
-    color: #1e73be;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 20px;
-    vertical-align: middle;
-}
 
 .header_social_column {
     float: right;
