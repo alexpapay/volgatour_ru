@@ -1,6 +1,6 @@
 // Menu scroll:
 $(window).on('scroll', function() {
-    if ($('nav').hasClass('showing') == true) {} else {
+    if ($(window).width() >= 1024) {
         if ($(window).scrollTop()) {
             $('nav').addClass('black');
         } else {
